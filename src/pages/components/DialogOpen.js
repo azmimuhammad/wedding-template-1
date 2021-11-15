@@ -50,7 +50,7 @@ const DialogComponent = props => {
             <DialogContent style={styles.dialog}>
                 <Typography style={styles.subTitle}>Aina & Azmi</Typography>
                 <img src={flowerDivider} style={styles.divider} alt="" />
-                <Typography style={styles.content}>Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/Saudari di acara pernikahan kami.</Typography>
+                <Typography style={styles.content}>Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/Saudari di acara pernikahan anak kami.</Typography>
                 <Button variant="outlined" color="primary" style={styles.button} onClick={() => handleClose()}>Buka Undangan</Button>
             </DialogContent>
         </Dialog>

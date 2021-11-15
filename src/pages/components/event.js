@@ -40,7 +40,7 @@ const EventComponent = () => {
                                         <b>Hari/Tanggal :</b> Sabtu, 20 November 2021
                                     </Typography>
                                     <Typography style={styles.content}>
-                                        <b>Akad Nikah : </b> 08.30 - 10.10 WIB
+                                        <b>Akad Nikah : </b> 08.30 - 10.00 WIB
                                     </Typography>
                                     <Typography style={styles.content}>
                                         <b>Resepsi : </b> 11.00 - 15.00 WIB

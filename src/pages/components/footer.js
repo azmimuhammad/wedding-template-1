@@ -21,7 +21,7 @@ const FooterComopnent = () => {
                 <Zoom>
                     <Paper elevation={3} style={styles.paper}>
                         <Typography style={styles.subTitle}>
-                            Atas  berkenannya hadir, kami ucapkan Terima Kasih dan Jazakumullohu Khoir.
+                            Atas  berkenannya hadir, kami ucapkan Jazakumullahu Khoir.
                         </Typography>
                     </Paper>
                 </Zoom>
