@@ -1,16 +1,10 @@
 import React from "react";
 import { Paper, Typography, Grid } from "@material-ui/core"
-import Foto1 from "../../assets/img/pak-kyai-dan-bu-kokom-1-1024x1024.png"
 
 const styles = {
     paper: {
         padding: '20px',
         background: 'rgba(232, 232, 232, 0.6)'
-    },
-    imgHeader: {
-        width: '250px',
-        height: '250px',
-        borderRadius: '50%'
     },
     title: {
         fontFamily: 'Hobo Std',
@@ -25,7 +19,6 @@ const styles = {
     },
     content: {
         fontFamily: 'Lucida Sans Unicode',
-        // fontSize: '24px',
         color: '#2c2a4f'
     },
 }

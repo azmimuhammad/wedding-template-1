@@ -6,11 +6,6 @@ const styles = {
         padding: '20px',
         background: 'rgba(232, 232, 232, 0.6)'
     },
-    imgHeader: {
-        width: '250px',
-        height: '250px',
-        borderRadius: '50%'
-    },
     title: {
         fontFamily: 'Hobo Std',
         fontSize: '24px',
@@ -24,7 +19,6 @@ const styles = {
     },
     content: {
         fontFamily: 'Lucida Sans Unicode',
-        // fontSize: '24px',
         color: '#2c2a4f'
     }
 }
@@ -44,8 +38,6 @@ const Invitation = () => {
                     <Typography variant="h6" style={{ margin: '10px 0px' }}>Dengan</Typography>
                     <Typography style={styles.subTitle}>Azmi Muhammad ST.</Typography>
                     <Typography style={styles.content}>(Putra Pertama Bapak Ahmad Yani & Ibu Eli Salamah)</Typography>
-                    {/* <Typography style={styles.subTitle}>&</Typography> */}
-                    {/* <Typography style={styles.subTitle}>Hj. Kokom Komariah SPd.I</Typography> */}
                 </Paper>
             </Grid>
             <Grid item xs={1} sm={2}></Grid>
