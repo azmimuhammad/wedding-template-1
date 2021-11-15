@@ -40,7 +40,7 @@ const Invitation = () => {
                         </Zoom>
                         <Fade left>
                             <Typography style={styles.subTitle}>Aina Rosyda Syamila SS.</Typography>
-                            <Typography style={styles.content}>(Putri Ketika KH. A Sugianto & Ibu Hj. Kokom Komariah)</Typography>
+                            <Typography style={styles.content}>(Putri Ketiga KH. A Sugianto & Ibu Hj. Kokom Komariah)</Typography>
                         </Fade>
                         <Zoom>
                             <Typography variant="h6" style={{ margin: '10px 0px' }}>Dengan</Typography>

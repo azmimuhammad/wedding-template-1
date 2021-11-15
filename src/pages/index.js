@@ -5,6 +5,7 @@ import QuotesComponent from './components/qotes'
 import EventComponent from './components/event'
 import InviteToComponent from './components/InviteTo'
 import FooterComopnent from './components/footer'
+import ProkesComponent from './components/prokes'
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <QuotesComponent />
             <EventComponent />
             <InviteToComponent />
+            <ProkesComponent />
             <FooterComopnent />
         </div>
     )

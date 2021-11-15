@@ -9,7 +9,6 @@ const styles = {
     },
     subTitle: {
         fontFamily: 'Courgette',
-        fontSize: '24px',
         color: '#00396b'
     },
 }
@@ -22,7 +21,7 @@ const FooterComopnent = () => {
                 <Zoom>
                     <Paper elevation={3} style={styles.paper}>
                         <Typography style={styles.subTitle}>
-                            Atas  berkenannya hadir, kami ucapkan Terima Kasih adn Jazakumullohu Khoir.
+                            Atas  berkenannya hadir, kami ucapkan Terima Kasih dan Jazakumullohu Khoir.
                         </Typography>
                     </Paper>
                 </Zoom>
