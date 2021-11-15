@@ -1,6 +1,7 @@
 import React from "react";
 import { Paper, Typography, Grid } from "@material-ui/core"
 import Foto1 from "../../assets/img/pak-kyai-dan-bu-kokom-1-1024x1024.png"
+import Zoom from 'react-reveal/Zoom';
 
 const styles = {
     paper: {
@@ -13,14 +14,16 @@ const styles = {
         borderRadius: '50%'
     },
     title: {
-        fontFamily: 'Hobo Std',
-        fontSize: '24px',
+        margin: '15px 0px 25px 0px',
+        fontFamily: 'Berkshire Swash',
+        fontSize: '30px',
         color: '#00396b'
     },
     subTitle: {
-        fontFamily: 'Brush Script Std',
-        fontSize: '24px',
-        color: '#826400'
+        fontFamily: 'Petemoss',
+        fontSize: '35px',
+        color: '#826400',
+        margin: 0
     }
 }
 
@@ -29,13 +32,15 @@ const HeaderComponent = () => {
         <Grid container>
             <Grid item xs={1} sm={2}></Grid>
             <Grid item xs={10} sm={8}>
-                <Paper elevation={3} style={styles.paper}>
-                    <img src={Foto1} alt="" style={styles.imgHeader} />
-                    <Typography style={styles.title}>Keluarga Besar</Typography>
-                    <Typography style={styles.subTitle}>KG. A Sugianto SIP., SAN</Typography>
-                    <Typography style={styles.subTitle}>&</Typography>
-                    <Typography style={styles.subTitle}>Hj. Kokom Komariah SPd.I</Typography>
-                </Paper>
+                <Zoom>
+                    <Paper elevation={3} style={styles.paper}>
+                        <img src={Foto1} alt="" style={styles.imgHeader} />
+                        <Typography style={styles.title}>Keluarga Besar</Typography>
+                        <Typography style={styles.subTitle}>KH. A Sugianto SIP., SAN</Typography>
+                        <Typography style={styles.subTitle}>&</Typography>
+                        <Typography style={styles.subTitle}>Hj. Kokom Komariah SPd.I</Typography>
+                    </Paper>
+                </Zoom>
             </Grid>
             <Grid item xs={1} sm={2}></Grid>
         </Grid>

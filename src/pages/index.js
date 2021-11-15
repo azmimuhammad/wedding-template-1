@@ -8,7 +8,7 @@ import FooterComopnent from './components/footer'
 
 const HomePage = () => {
     return (
-        <div style={{ paddingTop: '80px' }}>
+        <div style={{ padding: '80px 0px' }}>
             <HeaderComponent />
             <Invitation />
             <QuotesComponent />
